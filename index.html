@@ -46,8 +46,13 @@
         </div>
     </div>
 
-    <div class="footer">
-        <p style="color: white">footer</p>
-    </div>
+    <p onclick="displayfooter()" style="color: white">footer结语</p>
+    <p id="footer" style="color: white"></p>
+    <script>
+        function displayfooter(){
+            document.getElementById("footer").innerHTML = '人生数十载遇到喜欢的人不多，我希望我喜欢的你在以后的岁月里，一切安好';
+
+        }
+    </script>
 </body>
 </html>
